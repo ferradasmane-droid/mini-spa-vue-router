@@ -1,4 +1,5 @@
-# vue-mini-spa-rout
+# vue-mini-spa-router
+
 
 ## Descripción
 
