@@ -1,38 +1,68 @@
-# vue-mini-spa-router
+# vue-mini-spa-rout
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción
 
-## Recommended IDE Setup
+Este proyecto corresponde a un ejercicio práctico desarrollado con **Vue 3** y **Vue Router 4**.
+El objetivo es crear una mini aplicación tipo SPA que permite navegar entre distintas vistas sin recargar lapágina.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+La aplicación incluye rutas estáticas, una ruta dinámica con parámetro `id`, navegación con `RouterLink`, visualización con `RouterView`, redirección simple y un alias opcional.
 
-## Recommended Browser Setup
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Objetivo del ejercicio
 
-## Customize configuration
+Practicar lo esencial de Vue Router mediante una mini aplicación con:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Rutas estáticas y dinámica con `:id`.
+- Navegación usando `<RouterLink>`.
+- Visualización de vistas usando `<RouterView>`.
+- Paso de parametros como props usando `props: true`.
+- Redirección simple dsde `/inicio` hacia `/`.
+- Alias opcional para acceder a About desde `/about` y `/acerca`.
 
-## Project Setup
+
+## Tecnologías utilizadas
+
+- Vue 3
+- Vue Router 4
+- Vite
+- HTML
+- CSS
+- JavaScript
+
+## Estructura del proyecto
+
+```Bash
+src/
+├─ assets/
+|   └─ main.css
+├─ router/
+|   └─ index.js
+├─ views/
+|   ├─ HomeView.vue
+|   ├─ CatalogView.vue
+|   ├─ ProductView.vue
+|   └─ AboutView.vue
+|
+├─ App.vue
+└─ main.js
+```
+
+## Instalación y ejecución 
+
+Para instalar las dependencias del proyecto:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Para ejecutar el proyecto en modo desarrollo:
 
 ```sh
 npm run dev
 ```
+Luego se debe abrir en el navegador la URL indicada por la terminal.
 
-### Compile and Minify for Production
+## Autor
 
-```sh
-npm run build
-```
+**Nelly Ferrada**
+Proyecto realizado para práctica de **Vue Router**

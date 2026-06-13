@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import '../assets/main.css'
-
 import HomeView from '@/views/HomeView.vue'
 import CatalogoView from '@/views/CatalogoView.vue'
 import ProductView from '@/views/ProductView.vue'
